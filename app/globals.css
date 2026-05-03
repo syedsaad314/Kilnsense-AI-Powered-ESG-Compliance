@@ -184,7 +184,7 @@ a {
 /* FOOTER */
 .c-footer {border-top:1px solid var(--border);padding:48px 32px 24px;background:var(--bg2)}
 .fi2 {max-width:960px;margin:0 auto}
-.ft {display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr 1fr;gap:32px;margin-bottom:40px}
+.ft {display:grid;grid-template-columns:1.4fr 1fr 1fr 1.3fr 1fr;gap:32px;margin-bottom:40px}
 .fb p {font-size:12px;color:var(--t2);line-height:1.7;margin-top:10px;max-width:220px}
 .fcol h4 {font-size:11px;font-weight:600;margin-bottom:12px;letter-spacing:.2px;color:var(--t)}
 .fcol a {display:block;font-size:12px;color:var(--t2);text-decoration:none;margin-bottom:7px;transition:color .2s}
