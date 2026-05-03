@@ -61,6 +61,15 @@ export default function RootLayout({
                 <a href="/awareness">Zigzag Tech Manual</a>
               </div>
               <div className="fcol">
+               <h4>Team</h4>
+                  <span>Syed Saad Bin Irfan</span>
+                  <span>Aiman Afzal</span>
+                  <span>Uzair Bin Asif</span>
+                  <span>Huda Ghazanfar</span>
+                  <span>Mohammad Farhan</span>
+                  <span>Komal Bai</span>
+              </div>
+              <div className="fcol">
             <h4>Developer</h4>
              <a 
               href="https://www.linkedin.com/in/syed-saad-bin-irfan/" 
