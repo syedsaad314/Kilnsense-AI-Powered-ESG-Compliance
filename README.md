@@ -1,6 +1,7 @@
 # KilnSense | AI-Powered ESG Compliance
 
 > **Engineering a Sustainable Future for Pakistan’s Industrial Landscape.**
+> 
 > **2026 HEC Gen AI 48-hours Hackathon Cohort3 Project**
 
 KilnSense is an enterprise-grade web application engineered to calculate, monitor, and mitigate industrial emissions from brick kilns. By integrating real-time air quality data, IPCC Tier 1 scientific calculation models, and advanced AI-driven recommendations, KilnSense bridges the gap between industrial operations and environmental compliance (Pakistan NEQS 2010).
