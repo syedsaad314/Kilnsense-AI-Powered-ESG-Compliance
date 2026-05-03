@@ -1,0 +1,38 @@
+{
+  "PM25": {
+    "limit": 35,
+    "unit": "ug/m3",
+    "standard": "NEQS 2010",
+    "notes": "24-hour ambient air quality limit"
+  },
+  "PM10": {
+    "limit": 150,
+    "unit": "ug/m3",
+    "standard": "NEQS 2010",
+    "notes": "24-hour ambient air quality limit"
+  },
+  "SO2": {
+    "limit": 120,
+    "unit": "ug/m3",
+    "standard": "NEQS 2010",
+    "notes": "24-hour ambient air quality limit"
+  },
+  "NOx": {
+    "limit": 40,
+    "unit": "ug/m3",
+    "standard": "NEQS 2010",
+    "notes": "Annual limit used for compliance reference"
+  },
+  "CO": {
+    "limit": 5,
+    "unit": "mg/m3",
+    "standard": "NEQS 2010",
+    "notes": "8-hour average ambient limit"
+  },
+  "CO2": {
+    "limit": null,
+    "unit": "tonnes/day",
+    "standard": "NEQS 2010",
+    "notes": "Not regulated under NEQS; used for carbon emissions tracking"
+  }
+}

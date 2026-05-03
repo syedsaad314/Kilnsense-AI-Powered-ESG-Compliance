@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Zigzag Kiln Conversion",
+    "description": "Converts traditional Bull’s Trench kiln airflow into a zigzag pattern, improving combustion efficiency and significantly reducing particulate emissions while lowering coal consumption.",
+    "pkr_cost_min": 1500000,
+    "pkr_cost_max": 4000000,
+    "roi_months": 18,
+    "ease_score": 2,
+    "eligible_kiln_types": ["BullsTrench", "FCBTK"],
+    "emission_reduction_percent": 60,
+    "incentives": [
+      "Punjab EPA Zigzag Conversion Enforcement & Support Program",
+      "World Bank Brick Kiln Cleaner Production Initiative (technical support)"
+    ]
+  },
+  {
+    "name": "Biomass Co-Firing",
+    "description": "Partial replacement of coal with agricultural biomass such as rice husk reduces sulphur and carbon emissions and promotes cleaner combustion at relatively low cost.",
+    "pkr_cost_min": 200000,
+    "pkr_cost_max": 800000,
+    "roi_months": 12,
+    "ease_score": 4,
+    "eligible_kiln_types": ["BullsTrench", "Zigzag", "FCBTK"],
+    "emission_reduction_percent": 20,
+    "incentives": [
+      "ENERCON Energy Efficiency & Fuel Switching Support",
+      "Clean Fuel Transition Awareness Programs"
+    ]
+  },
+  {
+    "name": "Improved Chimney / Stack Design",
+    "description": "Enhancing chimney height and draft improves dispersion of pollutants and stabilizes airflow, reducing local pollution concentration and improving combustion performance.",
+    "pkr_cost_min": 300000,
+    "pkr_cost_max": 1000000,
+    "roi_months": 10,
+    "ease_score": 3,
+    "eligible_kiln_types": ["BullsTrench", "Zigzag", "FCBTK"],
+    "emission_reduction_percent": 15,
+    "incentives": [
+      "EPA Compliance Improvement Guidance Programs",
+      "Local Environmental Upgrade Support Initiatives"
+    ]
+  },
+  {
+    "name": "Coal Washing Before Combustion",
+    "description": "Pre-cleaning coal removes ash and sulphur impurities, leading to more efficient combustion and reduced particulate and SOx emissions without structural changes.",
+    "pkr_cost_min": 100000,
+    "pkr_cost_max": 500000,
+    "roi_months": 6,
+    "ease_score": 5,
+    "eligible_kiln_types": ["BullsTrench", "Zigzag", "FCBTK"],
+    "emission_reduction_percent": 10,
+    "incentives": [
+      "Fuel Quality Improvement Advisory Programs",
+      "Cleaner Production Awareness Campaigns"
+    ]
+  },
+  {
+    "name": "Fuel Switching to Natural Gas",
+    "description": "Switching from coal to natural gas significantly reduces particulate matter and sulphur emissions due to cleaner combustion, but depends on gas availability.",
+    "pkr_cost_min": 2000000,
+    "pkr_cost_max": 5000000,
+    "roi_months": 24,
+    "ease_score": 2,
+    "eligible_kiln_types": ["Zigzag", "FCBTK"],
+    "emission_reduction_percent": 70,
+    "incentives": [
+      "Industrial Gas Connection Facilitation Programs",
+      "Clean Energy Transition Financing Support"
+    ]
+  },
+  {
+    "name": "Waste Heat Recovery System",
+    "description": "Captures heat from exhaust gases and reuses it for preheating or drying, reducing overall fuel consumption and improving energy efficiency.",
+    "pkr_cost_min": 1000000,
+    "pkr_cost_max": 3000000,
+    "roi_months": 20,
+    "ease_score": 2,
+    "eligible_kiln_types": ["Zigzag", "FCBTK"],
+    "emission_reduction_percent": 25,
+    "incentives": [
+      "ENERCON Energy Efficiency Support Programs",
+      "Industrial Energy Saving Financing Schemes"
+    ]
+  }
+]
