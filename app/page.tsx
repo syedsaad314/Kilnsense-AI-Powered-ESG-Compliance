@@ -24,7 +24,7 @@ export default function Home() {
           </div>
           <div className="dbi">
             <div className="dbs">
-              <div style={{ fontSize: '9px', color: 'var(--t3)', fontFamily: 'var(--mono)', padding: '3px 8px', mb: '6px' }}>OVERVIEW</div>
+             <div style={{ fontSize: '9px', color: 'var(--t3)', fontFamily: 'var(--mono)', padding: '3px 8px', marginBottom: '6px' }}>OVERVIEW</div>
               <div className="dbn act">
                 <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
                 Dashboard
