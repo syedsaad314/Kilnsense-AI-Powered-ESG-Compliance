@@ -87,4 +87,4 @@ KilnSense is built to align with the **Pakistan NEQS 2010** standards, providing
 3. Automated EPA-Ready PDF Reporting.
 
 ---
-*Developed for the 2026 Environmental Tech Hackathon by **Engr. Syed Saad Bin Irfan** *
+*Developed for the 2026 Environmental Tech Hackathon by **Engr. Syed Saad Bin Irfan***
