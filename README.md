@@ -6,6 +6,31 @@ KilnSense is an enterprise-grade web application engineered to calculate, monito
 
 ---
 
+## 🔗 Live Demo
+
+🌐 https://kilnsense-ai-powered-esg-compliance.vercel.app
+
+---
+
+## 📸 Preview
+
+<table>
+  <tr>
+    <td><img src="./screenshots/Screenshot 2026-05-04 011311.png" width="100%"></td>
+    <td><img src="./screenshots/Screenshot 2026-05-04 011403.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/Screenshot 2026-05-04 011435.png" width="100%"></td>
+    <td><img src="./screenshots/Screenshot 2026-05-04 011523.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/Screenshot 2026-05-04 011606.png" width="100%"></td>
+    <td><img src="./screenshots/Screenshot 2026-05-04 011652.png" width="100%"></td>
+  </tr>
+</table>
+
+---
+
 ## 🚀 Core Architecture
 
 This application is built for high performance, strict typing, and seamless user experience:
@@ -20,51 +45,32 @@ This application is built for high performance, strict typing, and seamless user
 
 ```mermaid
 graph TD
-    %% Global Styles
-    classDef input fill:#F8FAFC,stroke:#064E3B,stroke-width:2px,color:#064E3B
-    classDef logic fill:#064E3B,stroke:#10B981,stroke-width:2px,color:#fff
-    classDef ai fill:#ECFDF5,stroke:#059669,stroke-width:2px,color:#064E3B
-    classDef output fill:#FFFFFF,stroke:#334155,stroke-width:2px,color:#334155
 
-    subgraph Data_Input [Data Acquisition Layer]
-        A([Industrial Sensor Inputs])
-        B([Global Environmental APIs])
-    end
+A[Industrial Sensor Inputs]
+B[Environmental APIs]
 
-    subgraph Core_Processing [Logic-Labs Engine]
-        C{{KilnSense Core Engine}}
-        D[IPCC Tier 1 Methodologies]
-        E[NEQS 2010 Regulatory Logic]
-    end
+C[KilnSense Core Engine]
+D[IPCC Tier 1 Emission Model]
+E[NEQS 2010 Compliance Rules]
 
-    subgraph Intelligence_Layer [Agentic AI Analysis]
-        F{Claude 3.5 Sonnet Integration}
-    end
+F[AI Analysis Engine - Groq llama 3]
 
-    subgraph Output_Interfaces [Industrial Insights]
-        G[/Live Analytics Dashboard/]
-        H[/EPA-Ready Compliance PDF/]
-        I[/Strategic Intervention Roadmap/]
-    end
+G[Live Analytics Dashboard]
+H[Compliance PDF Report]
+I[Intervention Recommendations]
 
-    %% Connections with High-Contrast Link Styling
-    A & B --> C
-    C --> D & E
-    D & E --> F
-    F --> G & H & I
+A --> C
+B --> C
 
-    %% Apply Styles
-    class A,B input
-    class C,D,E logic
-    class F ai
-    class G,H,I output
+C --> D
+C --> E
 
-    %% Explicit Link/Arrow Visibility Fix
-    linkStyle default stroke:#334155,stroke-width:2px,transition:all 0.3s;
+D --> F
+E --> F
 
-    %% Specific Subgraph Styling
-    style Core_Processing fill:#F1F5F9,stroke:#064E3B,stroke-dasharray: 5 5
-    style Intelligence_Layer fill:#F0FDF4,stroke:#10B981
+F --> G
+F --> H
+F --> I
 
 ```
 
