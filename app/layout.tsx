@@ -62,12 +62,12 @@ export default function RootLayout({
               </div>
               <div className="fcol">
                <h4>Team</h4>
-                  <span>Syed Saad Bin Irfan</span>
-                  <span>Aiman Afzal</span>
-                  <span>Uzair Bin Asif</span>
-                  <span>Huda Ghazanfar</span>
-                  <span>Mohammad Farhan</span>
-                  <span>Komal Bai</span>
+                <a href="#">Syed Saad Bin Irfan</a>
+                <a href="#">Aiman Afzal</a>
+                <a href="#">Uzair Bin Asif</a>
+                <a href="#">Huda Ghazanfar</a>
+                <a href="#">Mohammad Farhan</a>
+                <a href="#">Komal Bai</a>
               </div>
               <div className="fcol">
             <h4>Developer</h4>
