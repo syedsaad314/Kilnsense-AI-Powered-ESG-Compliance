@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+// @ts-ignore: allow global CSS side-effect import in Next.js layout
 import "./globals.css";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { RevealOnScroll } from "@/components/RevealOnScroll";
@@ -59,15 +60,6 @@ export default function RootLayout({
                 <a href="/awareness">NEQS 2010 Policy</a>
                 <a href="/awareness">EPA Guidelines</a>
                 <a href="/awareness">Zigzag Tech Manual</a>
-              </div>
-              <div className="fcol">
-               <h4>Team</h4>
-                <a href="#">Syed Saad Bin Irfan</a>
-                <a href="#">Aiman Afzal</a>
-                <a href="#">Uzair Bin Asif</a>
-                <a href="#">Huda Ghazanfar</a>
-                <a href="#">Mohammad Farhan</a>
-                <a href="#">Komal Bai</a>
               </div>
               <div className="fcol">
             <h4>Developer</h4>
