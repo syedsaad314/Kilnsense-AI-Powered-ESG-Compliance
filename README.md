@@ -27,7 +27,6 @@ KilnSense is an enterprise-grade web application engineered to calculate, monito
   </tr>
   <tr>
     <td><img src="./assets/Screenshot 2026-05-04 011606.png" width="100%"></td>
-    <td><img src="./assets/Screenshot 2026-05-04 011403.png" width="100%"></td>
   </tr>
 </table>
 
